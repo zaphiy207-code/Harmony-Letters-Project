@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Choose Your Album | Harmony Letters Project</title>
+<link rel="stylesheet" href="harmony.css">
+
+<!-- to allow older browsers to load the website -->
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]--> 
+</head>
+
+<body>
+<div id="stars"></div>
+
+<div class="site-top">
+<header>
+<h1>Harmony Letters Project</h1>
+</header>
+
+<nav class="navbar"> 
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="albums.html">Albums</a></li>
+<li><a href="reviews.html">Review</a></li>
+<li><a href="signin.php">Sign In</a></li>
+<li><a href="createacc.php">Create Account</a></li>
+</nav>
+</ul>
+</div>
+
+<div id ="wrapper">
+<main>   
+
+
+
+<section class="album-section">
+
+<div class="albums-heading">
+<p class="albums-eyebrow">FIND YOUR NEXT LISTEN</p>
+<h2>Explore Albums</h2>
+
+<p>Discover albums, explore the stories behind the music,
+and share what each album means to you.</p>
+</div>
+</section>
+
+
+
+
+<div class="album-search">
+<label for="albumSearch">Find an album</label>
+
+<div class="search-box">
+<input
+type="search"
+id="albumSearch"
+placeholder="Search album or artist...">
+
+<button type="button" id="searchBtn">
+Search
+</button>
+</div>
+
+<p id="searchMessage" aria-live="polite"></p>
+</div>
+
+<div class="album-carousel">
+
+<button class="arrow prev"
+id="prevBtn"
+aria-label="Previous album">
+&#10094;
+</button>
+
+<div class="album-track" id="albumTrack">
+
+<div class="album-card active"
+data-title="Birthplace"
+data-artist="Novo Amor"
+data-description="An atmospheric album filled with delicate vocals, layered instrumentals, and reflective songwriting."
+data-review="birthplace.html">
+
+<img src="pictures/novoamor.webp"
+alt="Novo Amor — Birthplace album cover">
+</div>
+
+<div class="album-card"
+data-title="Atlas: I"
+data-artist="Sleeping At Last"
+data-description="An introspective collection exploring human emotions, personal growth, and our place in the universe."
+data-review="atlasi.html">
+
+<img src="pictures/sleepingatlast.jpg"
+alt="Sleeping At Last — Atlas: I album cover">
+</div>
+
+</div>
+
+<button class="arrow next"
+id="nextBtn"
+aria-label="Next album">
+&#10095;
+</button>
+
+</div>
+
+<div class="album-info" aria-live="polite">
+
+<h3 id="albumTitle">Birthplace</h3>
+
+<p id="albumArtist">Novo Amor</p>
+
+<p id="albumDescription">
+An atmospheric album filled with delicate vocals,
+layered instrumentals, and reflective songwriting.
+</p>
+
+<a href="birthplace.html"
+id="reviewBtn"
+class="review-album-btn">
+Review Album
+</a>
+
+</section>
+</main>
+</div>
+
+<footer>
+<p>© 2026 Harmony Letters Project. All rights reserved.</p>
+</footer>
+</div>
+<script src="js/stars.js"></script>
+<script src="js/albums.js"></script>
+</body>
+</html>
