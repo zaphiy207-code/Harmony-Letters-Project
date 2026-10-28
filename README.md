@@ -122,12 +122,4 @@ Additional testing can cover guest access, duplicate review prevention, review v
 9. CREDITS
 
 Developed by:
-Jonathan John Tan Wei Ming        [B20260483]
-Izzatul Iffah binti Ariffin       [B20250034]
-Nur Zafirah binti Haji Julkipeli  [B20250051]
-
-Course:
-Bsc in Computing (Major in Data Analytics)
-Bsc in Computing (Major in Software Development)
-
-Academic year: Semester 3 Jul/Nov 2026
+University students
